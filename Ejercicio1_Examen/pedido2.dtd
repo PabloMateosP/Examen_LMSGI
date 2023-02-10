@@ -1,0 +1,12 @@
+<!ELEMENT Pedidos (Pedido)>
+<!ELEMENT Pedido (cod_sucursal, nom_trabajador, fec_pedidos,observaciones, articulos)>
+<!ELEMENT cod_sucursal (#PCDATA)>
+<!ELEMENT nom_trabajador (#PCDATA)>
+<!ELEMENT fec_pedidos (#PCDATA)>
+<!ELEMENT observaciones (#PCDATA)>
+<!ELEMENT articulos (num, precio, observarcion, revision)>
+<!ATTLIST articulos code NMTOKEN #REQUIRED>
+<!ELEMENT num (#PCDATA)>
+<!ELEMENT precio (#PCDATA)>
+<!ELEMENT observarcion (#PCDATA)>
+<!ELEMENT revision (#PCDATA)>

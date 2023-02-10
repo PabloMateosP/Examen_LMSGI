@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Pedidos SYSTEM "pedido2.dtd">
+<Pedidos>   
+    <Pedido>
+        <cod_sucursal>E2342342</cod_sucursal>
+        <nom_trabajador>Pepe Ponce Gómez</nom_trabajador>
+        <fec_pedidos>2022-12-04</fec_pedidos>
+        <observaciones>Incompleto</observaciones>
+        <articulos code="EFE-890">
+            <num>4</num>
+            <precio>350</precio>
+            <observarcion>El artículo llego con falta de material</observarcion>
+            <revision>12</revision>
+        </articulos>
+    </Pedido>
+</Pedidos>
