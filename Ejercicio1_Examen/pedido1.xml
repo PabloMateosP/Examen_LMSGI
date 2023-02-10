@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pedidos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
- xsi:noNamespaceSchemaLocation="pedido1.xsd">
+<Pedidos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="pedido1.xsd">
     <Pedido>
         <cod_sucursal>A9865434</cod_sucursal>
         <nom_trabajador>Francisco Montero Gutierrez</nom_trabajador>

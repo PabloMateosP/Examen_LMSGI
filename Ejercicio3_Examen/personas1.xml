@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<personas xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="personas.xsd">
+    <persona>
+        <nombre>Eva</nombre> vive en <ciudad>París</ciudad> y tiene <edad>25</edad>años
+    </persona>
+    <persona>
+        <nombre>Giovanni</nombre> viven en <ciudad>Florencia</ciudad> y tiene <edad>26</edad>
+    </persona>
+</personas>
+<!-- En este caso optamos por escribir toda la información completa, pudiendo ya que en nuestro xsd se declara en el complexType mixed = "true" que nos permite hacer esto -->
