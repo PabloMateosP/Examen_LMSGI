@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<boletin xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="boletin.xsd">
+     <nombre>Juan Perez</nombre>
+     <ciclo>Administración Sistemas Inf.</ciclo>
+     <curso>1</curso>
+     <evaluacion>1</evaluacion>
+     <cualificacion>
+           <modulo>Lenguajes de Marcas</modulo>
+           <curso>1</curso>
+           <nota>6</nota>
+     </cualificacion>
+     <cualificacion>
+           <modulo>Bases de Datos</modulo>
+           <curso>1</curso>
+           <nota>5</nota>
+     </cualificacion>
+</boletin>

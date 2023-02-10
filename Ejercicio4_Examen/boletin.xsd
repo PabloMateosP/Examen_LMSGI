@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="boletin">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="nombre" type="xs:string" />
+                <xs:element name="ciclo" type="xs:string" />
+                <xs:element name="curso" type="xs:int" />
+                <xs:element name="evaluacion" type="xs:string" />
+                <xs:element name="cualificacion" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="modulo" type="xs:string" />
+                            <xs:element name="curso" type="xs:int" />
+                            <xs:element name="nota" type="xs:positiveInteger" minOccurs="1" maxOccurs="10" /> 
+                            <!-- Añadimos el mínimo y máximo para ponerle límites del 1 al 10 -->
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
